@@ -31,3 +31,22 @@ optional arguments:
                         Save packets to a file
 ```
 
+## Requirements
+* Scapy
+* PrettyTable
+* Pandas
+* argparse
+* socket
+* time
+
+## Installation
+
+### Recommended Way of using pip
+```
+python -m pip install scapy pandas argparse socket time prettytable
+```
+OR
+```
+python -m pip install -r requirements.txt
+```
+
