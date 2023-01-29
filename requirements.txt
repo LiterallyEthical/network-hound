@@ -1,0 +1,7 @@
+scapy-python3
+prettytable
+pandas
+argparse
+socket
+time
+
