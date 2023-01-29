@@ -72,10 +72,12 @@ To save captured packets to a file:
 python network_sniffer.py -t -o <file_name>
 ```
 
-##### Disclaimer
+##### Warning!
 > CSV files will be  write-protected, don't try to rewrite them again.
 
+## Support
+If you have any issues or questions, please feel free to contact me at ibrahimtahaistikbal@gmail.com
 
-
-
+## Disclaimer
+This tool is intended for legitimate and legal use only. Any unauthorized use of this tool is strictly prohibited.
 
