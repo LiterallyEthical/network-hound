@@ -14,7 +14,7 @@ and/or UDP protocols and source and destination IP adresses.
 
 ## Usage
 
-```vb
+```md
 python network_sniffer.py [-h] [-i INTERFACE] [-t] [-u] [-s SOURCE] [-d DESTINATION] [-o OUTPUT]
 
 optional arguments:
@@ -49,4 +49,29 @@ OR
 ```
 python -m pip install -r requirements.txt
 ```
+
+## Examples
+To sniff TCP packets on the default interface(wlo1):
+```md
+python network_sniffer.py 
+```
+
+To sniff both TCP and UDP packets on the default interface:
+```md
+python network_sniffer.py -t -u
+```
+
+To filter packets based on source and destination IP addresses:
+```md
+python network_sniffer.py -t -u -s <source_ip> -d <destination_ip> 
+
+```
+
+To save captured packets to a file:
+```md
+python network_sniffer.py -t -o <file_name>
+```
+
+
+
 
