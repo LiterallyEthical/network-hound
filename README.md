@@ -1,6 +1,6 @@
 # Network Hound
 
-<img src="https://github.com/LiterallyEthical/network-hound/blob/main/images/title_image.png" height="415" width="830">
+<img src="https://github.com/LiterallyEthical/network-hound/blob/main/images/title_image.png" height="600">
 
 This is a network packet sniffer that captures and analyzes network packets on a given interface.
 The tool is implemented using [Scapy](https://scapy.net/) and [Pandas](https://pandas.pydata.org/).
