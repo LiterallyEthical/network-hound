@@ -19,7 +19,7 @@ and/or UDP protocols and source and destination IP adresses.
 ## Usage
 
 ```md
-python network_sniffer.py [-h] [-i INTERFACE] [-t] [-u] [-s SOURCE] [-d DESTINATION] [-o OUTPUT]
+python network_hound.py [-h] [-i INTERFACE] [-t] [-u] [-s SOURCE] [-d DESTINATION] [-o OUTPUT]
 
 optional arguments:
 -h, --help show this help message and exit
@@ -63,25 +63,25 @@ python -m pip install -r requirements.txt
 To sniff TCP packets on the default interface(wlo1):
 
 ```md
-python network_sniffer.py
+python network_hound.py
 ```
 
 To sniff both TCP and UDP packets on the default interface:
 
 ```md
-python network_sniffer.py -t -u
+python network_hound.py -t -u
 ```
 
 To filter packets based on source and destination IP addresses:
 
 ```md
-python network_sniffer.py -t -u -s <source_ip> -d <destination_ip>
+python network_hound.py -t -u -s <source_ip> -d <destination_ip>
 ```
 
 To save captured packets to a file:
 
 ```md
-python network_sniffer.py -t -o <file_name>
+python network_hound.py -t -o <file_name>
 ```
 
 ##### Warning!
